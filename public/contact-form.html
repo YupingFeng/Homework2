@@ -7,20 +7,20 @@
   <div>
     <p>
       <label>Name </label> 
-      <input id="name" class="form-control" type="text" ng-model="contact.firstName" required> 
+      <input id="name" class="form-control" type="text" ng-model="contact.name" required> 
     </p>
     
     <p>
       <label>Address </label> 
-      <input id="name" class="form-control" type="text" ng-model="contact.email" required> 
+      <input id="name" class="form-control" type="text" ng-model="contact.address" required> 
     </p>
     <p>
       <label>Class </label> 
-      <input id="name" class="form-control" type="text" ng-model="contact.phone.mobile"> 
+      <input id="name" class="form-control" type="text" ng-model="contact.class"> 
     </p>
     <p>
       <label>Id </label> 
-      <input id="name" class="form-control" type="text" ng-model="contact.phone.work"> 
+      <input id="name" class="form-control" type="text" ng-model="contact.id"> 
     </p>
   
     <p>
@@ -32,24 +32,23 @@
 
 <div class="row" ng-hide="contact._id">
   <div class="col-md-6">
-      <h2>Create new course</h2>
+      <h2>Add new course</h2>
   </div>
 </div>
 <div class="container">
   <div>
     <p>
-      <label>Name </label> 
-      <input id="name" class="form-control" type="text" ng-model="contact.firstName" required> 
+      <label>Course name </label> 
+      <input id="name" class="form-control" type="text" ng-model="contact.coursename" required> 
     </p>
-    
     <p>
       <label>Description </label> 
-      <input id="name" class="form-control" type="text" ng-model="contact.email" required> 
+      <input id="name" class="form-control" type="text" ng-model="contact.description" required> 
     </p>
     
     <p>
-      <label>Id </label> 
-      <input id="name" class="form-control" type="text" ng-model="contact.phone.work"> 
+      <label>Course id </label> 
+      <input id="name" class="form-control" type="text" ng-model="contact.courseid"> 
     </p>
   
     <p>
