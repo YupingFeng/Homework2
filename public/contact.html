@@ -1,8 +1,6 @@
 <div class = "row">
   <div class="col-md-6">
-    <h2>
-      {{ contact.name }} {{ contact.coursename }}
-    </h2>
+    
   </div>
   <div class="col-md-3">
   </div>
@@ -14,11 +12,17 @@
 </div>
 <div ng-hide="editMode" class="container">
   <div>
+    <h2>
+      Student
+    </h2>
     <p ng-if="contact.name">Name: {{ contact.name }}</p>
     <p ng-if="contact.address">Address: {{ contact.address }} </p>
     <p ng-if="contact.class">Class: {{ contact.class }} </p>
     <p ng-if="contact.id"> Id: {{ contact.id }} </p>
 
+    <h2>
+      Course
+    </h2>
     <p ng-if="contact.coursename"> Course name: {{ contact.coursename }} </p>
     <p ng-if="contact.description"> Description: {{ contact.description }} </p>
     <p ng-if="contact.courseid"> Course id: {{ contact.courseid }} </p>
